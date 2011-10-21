@@ -8,20 +8,20 @@ We have mashups using maps, links, events, photos, Amazon items, and eBay auctio
 
 I present to all of you, my dead simple Ruby interface to the [YouTube REST API](http://youtube.com/dev).  Install with:
 
-		gem install youtube
+	gem install youtube
 
 Want to get the URLs for the top [featured](http://youtube.com/browse?s=rf) YouTube videos?
 
-		require 'youtube'
+	require 'youtube'
 
-		youtube = YouTube::Client.new 'developer id'
-		videos = youtube.featured_videos
-		videos.each { |video| print video.url }
+	youtube = YouTube::Client.new 'developer id'
+	videos = youtube.featured_videos
+	videos.each { |video| print video.url }
 
 How about the titles of videos with tags ['heel toe technique'](http://youtube.com/results?search_query=heel+toe+technique&search=Search)?
 
-		videos = youtube.videos_by_tag('heel toe technique')
-		videos.each { |video| print video.title }
+	videos = youtube.videos_by_tag('heel toe technique')
+	videos.each { |video| print video.title }
 
 Please check out the [source](http://rubyforge.org/cgi-bin/viewvc.cgi/trunk/?root=youtube) at RubyForge for all available methods.  Also check out the original [YouTube API functions](http://youtube.com/dev).  The interface implements all the YouTube functions currently available.  You will need a YouTube [Developer ID](http://youtube.com/my_profile_dev).
 

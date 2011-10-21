@@ -2,7 +2,7 @@
 layout: post
 title: Introducing YouTube-G
 ---
-"Walter Korman":http://lemurware.blogspot.com/ and I are proud to release youtube-g version 0.4.1.  
+[Walter Korman](http://lemurware.blogspot.com/) and I are proud to release youtube-g version 0.4.1.  
 
 youtube-g is a pure Ruby client for the YouTube GData API. It provides an easy
 way to access the latest YouTube video search results from your own programs.
@@ -12,7 +12,7 @@ queries to obtain well-targeted video search results.
 
 More detail on the underlying source Google-provided API is available at:
 
-"http://code.google.com/apis/youtube/overview.html":http://code.google.com/apis/youtube/overview.html
+[http://code.google.com/apis/youtube/overview.html](http://code.google.com/apis/youtube/overview.html)
 
 *FEATURES*
   
@@ -22,33 +22,33 @@ Aims to be in parity with Google's YouTube GData API.  Core functionality is cur
 
 Create a client:
   
-    require 'youtube_g'
- 	  client = YouTubeG::Client.new
+	require 'youtube_g'
+	client = YouTubeG::Client.new
   
 Basic queries:
 
-    client.videos_by(:query => "penguin")
-    client.videos_by(:tags => ['tiger', 'leopard'])
-    client.videos_by(:categories => [:news, :sports])
-    client.videos_by(:categories => [:news, :sports], :tags => ['soccer', 'football'])
-    client.videos_by(:user => 'liz')
+	client.videos_by(:query => "penguin")
+	client.videos_by(:tags => ['tiger', 'leopard'])
+	client.videos_by(:categories => [:news, :sports])
+	client.videos_by(:categories => [:news, :sports], :tags => ['soccer', 'football'])
+	client.videos_by(:user => 'liz')
         
 Standard feeds:
         
-    client.videos_by(:most_viewed)
-    client.videos_by(:top_rated, :time => :today)
+	client.videos_by(:most_viewed)
+	client.videos_by(:top_rated, :time => :today)
         
 Advanced queries (with boolean operators OR (either), AND (include), NOT (exclude)):
         
-    client.videos_by(:categories => { :either => [:news, :sports], :exclude => [:comedy] }, :tags => { :include => ['football'], :exclude => ['soccer'] })
+	client.videos_by(:categories => { :either => [:news, :sports], :exclude => [:comedy] }, :tags => { :include => ['football'], :exclude => ['soccer'] })
 
 *DOCUMENTATION*
 
-Rubyforge project: "http://rubyforge.org/projects/youtube-g/":http://rubyforge.org/projects/youtube-g/
+Rubyforge project: [http://rubyforge.org/projects/youtube-g/](http://rubyforge.org/projects/youtube-g/)
 
-RDoc: "http://youtube-g.rubyforge.org/":http://youtube-g.rubyforge.org/
+RDoc: [http://youtube-g.rubyforge.org/](http://youtube-g.rubyforge.org/)
 
-Google Group: "http://groups.google.com/group/ruby-youtube-library?hl=en":http://groups.google.com/group/ruby-youtube-library?hl=en
+Google Group: [http://groups.google.com/group/ruby-youtube-library?hl=en](http://groups.google.com/group/ruby-youtube-library?hl=en)
 
 *INSTALL*
 
@@ -76,4 +76,4 @@ Changes:
 
 _Our previous library, youtube, has been deprecated.  Please use youtube-g from now on._
 
-Who can guess what the name youtube-g is in reference to? Hint: Like us, you probably used "BBS's":http://en.wikipedia.org/wiki/Bulletin_board_system before the days of the web, when wide adoption of TCP/IP was still a few years away.
+Who can guess what the name youtube-g is in reference to? Hint: Like us, you probably used [BBS's](http://en.wikipedia.org/wiki/Bulletin_board_system) before the days of the web, when wide adoption of TCP/IP was still a few years away.

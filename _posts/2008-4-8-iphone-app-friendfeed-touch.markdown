@@ -2,11 +2,9 @@
 layout: post
 title: "iPhone App: FriendFeed Touch"
 ---
-<notextile>
 <p style="text-align:center;">
-[This video demo has been removed]
+<embed src="/images/iPhone_FriendFeed_demo_low.mov" width="386" height="500"></embed>
 </p>
-</notextile>
 
 Here's my first iPhone app demo, a client for FriendFeed, created with the official SDK.  It's not the first one I did but it's the only one that is presentable so far.  I tried to keep the design true to standard iPhone apps without too much customization.  In the future I plan adding the ability to post to FriendFeed, including directly posting photos taken with the iPhone camera.  Currently, you can see your personal feed (once authenticated), your friends' feed, and the public feed for everyone.
 

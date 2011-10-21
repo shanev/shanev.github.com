@@ -11,10 +11,8 @@ A Ruby client for the $uper Rewards API by KITN Media, the Facebook monetization
 * Aims to implement all the functionality of the $uper Rewards service
 
 *USE*
-<code><pre>
-offer_code = SuperRewards::Client.offers_display(:iframe, uid)
-points = SuperRewards::Client.get_points(uids).first.user.points
-</pre></code>
+	offer_code = SuperRewards::Client.offers_display(:iframe, uid)
+	points = SuperRewards::Client.get_points(uids).first.user.points
 
 *REQUIREMENTS*
 
@@ -27,9 +25,9 @@ points = SuperRewards::Client.get_points(uids).first.user.points
 
 *DOCUMENTATION*
 
-Rubyforge: "http://rubyforge.org/projects/superrewards/":http://rubyforge.org/projects/superrewards/
+Rubyforge: [http://rubyforge.org/projects/superrewards/](http://rubyforge.org/projects/superrewards/)
 
-RDocs: "http://superrewards.rubyforge.org/":http://superrewards.rubyforge.org/
+RDocs: [http://superrewards.rubyforge.org/](http://superrewards.rubyforge.org/)
 
 *NOTES*
 

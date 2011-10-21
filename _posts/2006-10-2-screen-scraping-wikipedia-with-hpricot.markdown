@@ -6,42 +6,42 @@ Wikipedia is one of the few sites that should have an API but doesn't.  It's a s
 
 The few Wikipedia clients out there only output data in Wikitext format or clear text.  I wanted something that will reproduce the content with basic styling intact, so it can be republished in a similar fashion to Answers.com.  Here is the code to do this:
 
-		require 'hpricot'
-		require 'open-uri'
+	require 'hpricot'
+	require 'open-uri'
 
-		items_to_remove = [
-		  "#contentSub",        #redirection notice
-		  "div.messagebox",     #cleanup data
-		  "#siteNotice",        #site notice
-		  "#siteSub",           #"From Wikipedia..."
-		  "table.infobox",      #sidebar box
-		  "#jump-to-nav",       #jump-to-nav
-		  "div.editsection",    #edit blocks
-		  "table.toc",          #table of contents 
-		  "#catlinks"           #category links
-		  ]
+	items_to_remove = [
+	  "#contentSub",        #redirection notice
+	  "div.messagebox",     #cleanup data
+	  "#siteNotice",        #site notice
+	  "#siteSub",           #"From Wikipedia..."
+	  "table.infobox",      #sidebar box
+	  "#jump-to-nav",       #jump-to-nav
+	  "div.editsection",    #edit blocks
+	  "table.toc",          #table of contents 
+	  "#catlinks"           #category links
+	  ]
 
-		doc = Hpricot open('wikipedia url')
-		@article = (doc/"#content").each do |content|
-		  #change /wiki/ links to point to full wikipedia path
-		  (content/:a).each do |link|
-		    unless link.attributes['href'].nil?
-		      if (link.attributes['href'][0..5] == "/wiki/")
-		        link.attributes['href'].sub!('/wiki/', 'http://en.wikipedia.org/wiki/')
-		      end
-		    end
-		  end  
-  
-		  #remove unnecessary content and edit links
-		  items_to_remove.each { |x| (content/x).remove }
-  
-		  #replace links to create new entries with plain text
-		  (content/"a.new").each do |link|
-		    link.parent.insert_before Hpricot.make(link.attributes['title']), link
-		  end.remove
-		end 
+	doc = Hpricot open('wikipedia url')
+	@article = (doc/"#content").each do |content|
+	  #change /wiki/ links to point to full wikipedia path
+	  (content/:a).each do |link|
+	    unless link.attributes['href'].nil?
+	      if (link.attributes['href'][0..5] == "/wiki/")
+	        link.attributes['href'].sub!('/wiki/', 'http://en.wikipedia.org/wiki/')
+	      end
+	    end
+	  end  
 
-		puts @article.inner_html
+	  #remove unnecessary content and edit links
+	  items_to_remove.each { |x| (content/x).remove }
+
+	  #replace links to create new entries with plain text
+	  (content/"a.new").each do |link|
+	    link.parent.insert_before Hpricot.make(link.attributes['title']), link
+	  end.remove
+	end 
+
+	puts @article.inner_html
 
 For comparison, [here](http://shanesbrain.net/pages/wikipedia.html) is a Wikiepdia article scraped using this script, and its [cousin at Answers.com](http://www.answers.com/screen%20scraping).  Here is the original [Wikipedia article](http://en.wikipedia.org/wiki/Screen_scraping).  There are still a few things to be worked out, like filtering out Javascript and working with other languages.  But I will leave that as an exercise for the reader!
 

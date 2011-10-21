@@ -6,9 +6,9 @@ Make your models feel like they are in high school again.  This plugin retrieves
 
 For example, lets say you have a Person model that has a name, age, and city.
 
-		class Person < ActiveRecord::Base
-		  acts_as_most_popular
-		end
+	class Person < ActiveRecord::Base
+	  acts_as_most_popular
+	end
 
 This will give you the methods:
 
@@ -18,14 +18,14 @@ This will give you the methods:
 
 For example, lets say you have six people in your database. Three are from Chicago, two from New York, and one from Hartford.  Then, most\_popular_cities will give you:
 
-		Person.most_popular_cities
-		=> ["chicago", "new york", "hartford"]
+	Person.most_popular_cities
+	=> ["chicago", "new york", "hartford"]
 
 Each most\_popular method returns an array of the type of the column.  Check out  [this unit test](http://shanesbrain.net/svn/rails/plugins/acts_as_most_popular/test/>) for more examples.
 
 Install with:
 
-		script/plugin install http://shanesbrain.net/svn/rails/plugins/acts_as_most_popular
+	script/plugin install http://shanesbrain.net/svn/rails/plugins/acts_as_most_popular
 
 Feedback appreciated.
 

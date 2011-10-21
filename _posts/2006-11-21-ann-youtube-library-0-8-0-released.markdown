@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "\[ANN\] YouTube Library 0.8.0 Released"
+title: "[ANN] YouTube Library 0.8.0 Released"
 ---
 **Documentation**: [http://youtube.shanesbrain.net/](http://youtube.shanesbrain.net/)
 
@@ -28,9 +28,9 @@ Run unit tests with <code>% rake test</code>.  This allows for easy detection if
 
 I got a lot of questions after the first release about how to get video details, so here in an example:
 
-		video = featured_videos.first       # returns a YouTube::Video object
-		details = video_details(video.id)   # returns a YouTube::VideoDetails object
-		@tags = details.tags                # returns a String for all tags for this video
+	video = featured_videos.first       # returns a YouTube::Video object
+	details = video_details(video.id)   # returns a YouTube::VideoDetails object
+	@tags = details.tags                # returns a String for all tags for this video
 
 
 In a similar vein to this library, Walter has released a [Google Video API for Ruby](http://lemurware.blogspot.com/2006/11/google-video-api-for-ruby.html) that brilliantly uses Hpricot to parse video meta-data.
