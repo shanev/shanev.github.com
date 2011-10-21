@@ -2,6 +2,10 @@
 layout: post
 title: A Ruby Interface to the YouTube API
 ---
+
+{{ page.title }}
+================
+
 **Update**: [Version 0.8.0](http://shanesbrain.net/articles/2006/11/21/ruby_youtube_library_0_8_0_released) has been released.
 
 We have mashups using maps, links, events, photos, Amazon items, and eBay auctions.  What is the next logic step? Video ofcourse! Learn from the Myspace kids.  They are the future after all.

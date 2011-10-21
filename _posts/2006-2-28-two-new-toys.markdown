@@ -2,6 +2,10 @@
 layout: post
 title: Two New Toys
 ---
+
+{{ page.title }}
+================
+
 I'm getting two new toys this week:
 
 ![Macbook Pro](http://www.channelregister.co.uk/2006/02/14/macbook_pro_1.jpg "Macbook pro")

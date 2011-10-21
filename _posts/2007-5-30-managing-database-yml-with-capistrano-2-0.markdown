@@ -2,6 +2,10 @@
 layout: post
 title: Managing database.yml with Capistrano 2.0
 ---
+
+{{ page.title }}
+================
+
 Jeremy Voorhis posted [a really great Capistrano recipe for managing database.yml](http://www.jvoorhis.com/articles/2006/07/07/managing-database-yml-with-capistrano) which dynamically creates a database.yml file in your shared directory on setup, and symlinks your app's database.yml once it's deployed.  This is great if you don't version control your database.yml file for security reasons or working with multiple developers.  
 
 [Capistrano 2.0](http://www.capify.org/) changes the syntax for task callbacks and gets rid of the useful render method.  However, using [ERb](http://www.ruby-doc.org/stdlib/libdoc/erb/rdoc/), Ruby's built-in templating system, isn't much more difficult than using the old render method.  Here is Jeremy's script updated for Capistrano 2.0 using ERb and the new namespaced callback syntax.

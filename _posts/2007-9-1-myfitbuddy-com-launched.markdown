@@ -2,6 +2,10 @@
 layout: post
 title: MyFitBuddy.com Launched!
 ---
+
+{{ page.title }}
+================
+
 ![MyFitBuddy.com logo](/images/2007/9/4/myfitbuddy_pr.jpg)
 
 I'm pleased to announce the launch of [MyFitBuddy.com](http://myfitbuddy.com), a workout tracking tool with social networking features.  It allows you to log your workouts at the gym, sports training, your run in the park, or any other type of physical activity, and see the improvement over time.  You can add your workout buddies as friends, and keep in touch with their workouts as well.  

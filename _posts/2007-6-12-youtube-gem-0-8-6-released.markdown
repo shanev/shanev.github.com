@@ -2,6 +2,10 @@
 layout: post
 title: "YouTube Gem 0.8.6 Released"
 ---
+
+{{ page.title }}
+================
+
 This is mainly a bugfix release but also makes it easier to search for videos by category.  Searching by category greatly helps in finding videos that are more relevant.  You can now do:
 
     videos = videos_by_category_and_tag(YouTube::Category::MUSIC, 'bush')

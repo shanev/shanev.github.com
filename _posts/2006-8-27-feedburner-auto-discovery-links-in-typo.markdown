@@ -2,6 +2,10 @@
 layout: post
 title: FeedBurner Auto-Discovery Links in Typo
 ---
+
+{{ page.title }}
+================
+
 Damien Tanner has a [nice article](http://iamrice.org/articles/2006/03/30/migrating-typo-feeds-to-feedburner) on how to migrate Typo feeds to FeedBurner.  However, to make it more complete, I added the following steps:
 
 Too many options are a bad thing.  When you give your readers a multiple range of choices such as RSS, RSS 2.0, Atom, etc., you will get chunks of readers using each format, making it hard to track subscriptions.  Damien suggests redirecting these URLs to your FeedBurner URL.  If you have FeedBurner's SmartFeed option enabled, then any RSS reader supporting any format should be able to parse your feed.  However, it would be better to take it one step further and only allow your readers one feed option.  To do this in Typo, edit the file app/helpers/articles_helper.rb and change your auto-discovery URLs (around line 60):

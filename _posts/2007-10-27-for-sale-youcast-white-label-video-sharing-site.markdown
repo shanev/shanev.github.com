@@ -2,6 +2,10 @@
 layout: post
 title: "YouCast: White-label video sharing site"
 ---
+
+{{ page.title }}
+================
+
 YouCast&#153; is a Ruby on Rails video sharing application that you host on your own servers.  It can be rebranded easily for your company or used as is.
 
 Main features:

@@ -2,6 +2,10 @@
 layout: post
 title: Shebang Line Issues in Deployment
 ---
+
+{{ page.title }}
+================
+
 When you start a new Rails project using the rails generator, it creates a shebang line in dispatch.fcgi specific to where ruby is installed.  For example, on FreeBSD, the line is 
 
 	#!/usr/local/bin/ruby18

@@ -2,6 +2,10 @@
 layout: post
 title: Agile as a Lifestyle
 ---
+
+{{ page.title }}
+================
+
 When I first started learning about Agile Methodologies back in 1999 (called XP then), I wondered why people needed to read books and take classes on the subject.  It felt so natural to me that I assumed that everybody did software that way.  However, when I entered the workforce in 2000 and joined a big company, I realized that it certainly wasn't the case.  
 
 There is a reason some of the best software comes from the open-source movement and small companies.  Google's best product, Google Search, was released when the company only had two people.  Now with thousands of employees, their new products haven't been able to match the quality and usefulness of the search product.  Smaller companies are more accepting of "radical" processes like Agile, and is probably a reason they deliver higher quality software.

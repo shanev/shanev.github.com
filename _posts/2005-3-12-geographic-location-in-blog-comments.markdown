@@ -2,6 +2,10 @@
 layout: post
 title: Geographic Location in Blog Comments
 ---
+
+{{ page.title }}
+================
+
 When listening to syndicated radio shows, how often do you *_not_* hear the location of a caller mentioned? Every radio show I've listened to with national reach has always mentioned the callers' location.  Knowing the location of a caller helps localize national shows.  It is a little comforting knowing that someone near you is going through the same thing, or that someone near you has the same views on a certain subject.  I believe this is something that is missing in the blogosphere. 
  
 Since the web is an international medium, having user's locations in blog comments will help humanize the blogosphere.  Instead of limiting all communications to the online world, people who meet while commenting on a certain blog entry may decide to carry on their discussions offline,  if they know that they are co-located. 

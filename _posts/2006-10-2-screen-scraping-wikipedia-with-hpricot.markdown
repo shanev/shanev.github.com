@@ -2,6 +2,10 @@
 layout: post
 title: Screen Scraping Wikipedia with Hpricot
 ---
+
+{{ page.title }}
+================
+
 Wikipedia is one of the few sites that should have an API but doesn't.  It's a shame, considering it is one of the best sources for free quality content.  Due to this limitation, we have to resort to the pre-historic art of screen scraping.  why's [Hpricot](http://code.whytheluckystiff.net/hpricot/) is my favorite tool to do this.  It uses a _fast_ HTML scanner written in C using [Ragel](http://www.cs.queensu.ca/~thurston/ragel/), the same technology that makes Mongrel so fast.  It allows you to parse HTML using either CSS selectors or XPath, in a similar vein to [jQuery](http://jquery.com/).
 
 The few Wikipedia clients out there only output data in Wikitext format or clear text.  I wanted something that will reproduce the content with basic styling intact, so it can be republished in a similar fashion to Answers.com.  Here is the code to do this:

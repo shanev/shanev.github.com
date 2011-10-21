@@ -2,6 +2,10 @@
 layout: post
 title: Super Rewards Client API Released
 ---
+
+{{ page.title }}
+================
+
 *DESCRIPTION*
   
 A Ruby client for the $uper Rewards API by KITN Media, the Facebook monetization tool.

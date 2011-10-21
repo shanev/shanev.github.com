@@ -2,6 +2,10 @@
 layout: post
 title: Rails on Facebook Published
 ---
+
+{{ page.title }}
+================
+
 I'm happy to announce the publication of my first PDF book, [Rails on Facebook](http://peepcode.com/products/rails-on-facebook), along with co-author [David Clements](http://shortpath.blogspot.com/).  
 
 [![Book Image][2]][1]

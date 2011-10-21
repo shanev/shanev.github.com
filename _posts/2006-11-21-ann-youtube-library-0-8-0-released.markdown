@@ -2,6 +2,10 @@
 layout: post
 title: "[ANN] YouTube Library 0.8.0 Released"
 ---
+
+{{ page.title }}
+================
+
 **Documentation**: [http://youtube.shanesbrain.net/](http://youtube.shanesbrain.net/)
 
 **RubyForge project page**: [http://rubyforge.org/projects/youtube/](http://rubyforge.org/projects/youtube/)

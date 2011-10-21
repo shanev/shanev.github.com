@@ -2,6 +2,10 @@
 layout: post
 title: "iPhone App: FriendFeed Touch"
 ---
+
+{{ page.title }}
+================
+
 <p style="text-align:center;">
 <embed src="/images/iPhone_FriendFeed_demo_low.mov" width="386" height="500"></embed>
 </p>

@@ -2,6 +2,10 @@
 layout: post
 title: Using Xcode with Git
 ---
+
+{{ page.title }}
+================
+
 For Xcode and Git to work smoothly with each other, you need to make sure Git treats Xcode project files properly.  You do this by configuring Git via .gitignore and .gitattributes.  Create these files in your repo's root folder and add the following lines:
 
 \.gitignore

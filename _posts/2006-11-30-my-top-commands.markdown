@@ -3,6 +3,10 @@ layout: post
 title: My Top Commands
 ---
 
+
+{{ page.title }}
+================
+
 	shane$ history | awk '{print $2}' | awk 'BEGIN {FS="|"} {print $1}' |  sort | uniq -c | sort -nr | head -10
 	 125 ll
 	  99 rake

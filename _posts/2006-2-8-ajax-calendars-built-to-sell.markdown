@@ -2,6 +2,10 @@
 layout: post
 title: Ajax Calendars Built to Sell?
 ---
+
+{{ page.title }}
+================
+
 Joel Spolsky and Doug Alcorn seem to think that all these new [Ajax calendars](http://www.shanesbrain.net/articles/2006/02/07/new-crop-of-web-calendars) are being [built](http://www.joelonsoftware.com/items/2006/02/08.html) to [sell](http://blog.lathi.net/articles/2006/02/08/whos-your-customer):
 
 <BLOCKQUOTE>My theory is that about a year ago, there was a lot of buzz (possibly true, possibly false) about Google shipping a calendar, and everybody thought, oh gosh, it's gonna be really good, like Gmail, and then Yahoo! is going to be embarrassed again, and run out and buy the best Ajax calendar company they can find, just like they did with Oddpost, making those very funny kids millionaires overnight. --Joel</BLOCKQUOTE>

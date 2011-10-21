@@ -2,6 +2,10 @@
 layout: post
 title: Video Jukebox Facebook Application Launched
 ---
+
+{{ page.title }}
+================
+
 ![Image](/images/2007/10/10/jukebox_shanesbrain.png)
 
 [Video Jukebox](http://apps.facebook.com/jookbox/) finds music videos of your favorite music and lets you put them on your profile.

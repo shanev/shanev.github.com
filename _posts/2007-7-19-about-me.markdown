@@ -2,7 +2,9 @@
 layout: post
 title: About Me
 ---
-*Shane Vitarana*
+
+Shane Vitarana
+==============
 
 I own and operate [CrimsonJet](http://crimsonjet.com), an iPhone app company.  CrimsonJet's most successful product, [Drum Kit](http://www.getdrumkit), was the #2 [best selling music app](http://www.mobilecrunch.com/2008/12/02/apple-announces-top-10-iphone-app-downloads-of-2008/) in the iTunes App Store in 2008 and continues to be in the Top 10 in Music.  It has been featured in Apple's TV ads, billboards, and posters.
 

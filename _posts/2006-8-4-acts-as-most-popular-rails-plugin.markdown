@@ -2,6 +2,10 @@
 layout: post
 title: Acts As Most Popular Rails Plugin
 ---
+
+{{ page.title }}
+================
+
 Make your models feel like they are in high school again.  This plugin retrieves the most frequently occurring values for each column.  It adds methods of the form most\_popular\_\[pluralized\_column\_name\].  You can control how many results you get with the :limit option.  The default limit is 5.
 
 For example, lets say you have a Person model that has a name, age, and city.

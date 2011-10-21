@@ -2,6 +2,10 @@
 layout: post
 title: Spacer, Yes with an 'e', Released
 ---
+
+{{ page.title }}
+================
+
 ![Image](/images/2008/2/11/2245964951_69fdb18688_o.jpg)
 
 *DESCRIPTION*

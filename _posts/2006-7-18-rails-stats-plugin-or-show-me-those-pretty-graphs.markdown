@@ -2,6 +2,10 @@
 layout: post
 title: Rails Stats Plugin or Show Me Those Pretty Graphs
 ---
+
+{{ page.title }}
+================
+
 I present to all five of you, my very first Rails plugin.  Rails Stats is a basic graphical version of the Rake 'stats' task.  It generates a graph showing your lines of code versus lines of test code, and two other graphs that may be useful to some of you visually driven folks.  It could also be used by people outside of development, such as managers, to track the progress of your project.
 
 In order for this plugin to work, you must have [Gruff Graphs](http://nubyonrails.com/pages/gruff) installed.  After you have Gruff Graphs running successfully, install the plugin with:

@@ -2,6 +2,10 @@
 layout: post
 title: More YouTube Library Goodness
 ---
+
+{{ page.title }}
+================
+
 I just checked in YouTube Library v0.8.5 to the trunk and uploaded the new gem.  It fixes a few bugs that have been bugging you guys for a while, and includes some new methods the guys over at Google/YouTube were kind enough to add.  Namely:
 
 	youtube.videos.list_by_related (with paging),

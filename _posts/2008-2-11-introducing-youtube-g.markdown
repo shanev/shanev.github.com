@@ -2,6 +2,10 @@
 layout: post
 title: Introducing YouTube-G
 ---
+
+{{ page.title }}
+================
+
 [Walter Korman](http://lemurware.blogspot.com/) and I are proud to release youtube-g version 0.4.1.  
 
 youtube-g is a pure Ruby client for the YouTube GData API. It provides an easy

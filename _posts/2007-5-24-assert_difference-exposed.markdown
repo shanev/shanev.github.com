@@ -2,6 +2,10 @@
 layout: post
 title: assert_difference Exposed
 ---
+
+{{ page.title }}
+================
+
 assert_difference is my favorite Rails test helper, and until a few weeks ago, was sitting in a helper class that I used to add to all my projects.  It is now in Rails core.  There were a few versions of it floating around, so it is good that we now have only one version to deal with. 
 
 **What can you do with it?**
