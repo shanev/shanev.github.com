@@ -8,24 +8,24 @@ I ran into a situation while working on a side project, where I needed to update
 
 First, define a method in the controller that will replace the Rails in\_place\_edit\_for macro.  To in-place edit the 'name' attribute of a model named 'Event,' do:
 
-	  def set_event_name
-	    @event = Event.find(params[:id])
-	    previous_name = @event.name
-	    @event.name = params[:value]
-	    @event.name = previous_name unless @event.save
+	def set_event_name
+	  @event = Event.find(params[:id])
+	  previous_name = @event.name
+	  @event.name = params[:value]
+	  @event.name = previous_name unless @event.save
 
-	    # include logic needed for partials in RJS template
-	  end
+	  # include logic needed for partials in RJS template
+	end
 
 Then create a new file in the view folder called set\_event\_name.rjs.  This needs to include the partial containing the in-place editor view code, as well as anything else you need to update on the page.
 
-		page.replace_html 'in_place_edit_results', :partial => "desc"
-		page.replace_html 'upcoming', :partial => "upcoming"
-		page.visual_effect :highlight, 'upcoming', :duration => 1
-		page.replace_html 'month', :partial => "month"
+	page.replace_html 'in_place_edit_results', :partial => "desc"
+	page.replace_html 'upcoming', :partial => "upcoming"
+	page.visual_effect :highlight, 'upcoming', :duration => 1
+	page.replace_html 'month', :partial => "month"
 
 The view, \_desc.rhtml, can use the built-in Rails macro helper:
 
-		<%= in_place_editor_field :event, :name %>
+	<%= in_place_editor_field :event, :name %>
 
 Check out [this great article](http://shnoo.gr/articles/2005/12/20/ajax-the-great) if you need to validate and sanitize the data.

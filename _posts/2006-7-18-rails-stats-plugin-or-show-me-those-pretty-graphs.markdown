@@ -6,21 +6,17 @@ I present to all five of you, my very first Rails plugin.  Rails Stats is a basi
 
 In order for this plugin to work, you must have [Gruff Graphs](http://nubyonrails.com/pages/gruff) installed.  After you have Gruff Graphs running successfully, install the plugin with:
 
-		script/plugin install http://shanesbrain.net/svn/rails/plugins/rails_stats
+	script/plugin install http://shanesbrain.net/svn/rails/plugins/rails_stats
 
 If your project is under Subversion version control, I highly recommend doing:
 
-		script/plugin install -x http://shanesbrain.net/svn/rails/plugins/rails_stats
+	script/plugin install -x http://shanesbrain.net/svn/rails/plugins/rails_stats
 		
 to automatically use svn:externals which enables easy plugin updates with the 'svn update' command.  Since I'm an iterative development type of guy (lazy and haven't included any tests), this is a good idea.
 
 To run it, simply point your brower to yourapp/rails_stats.
 For example, [http://shanesbrain.net/rails_stats](http://shanesbrain.net/rails_stats)
 shows Rails Stats running on the current Typo trunk. 
-
-![graph 1](http://shanesbrain.net/images/stats.png)
-![graph 1](http://shanesbrain.net/images/breakdown.png)
-![graph 1](http://shanesbrain.net/images/tests.png)
 
 I don't plan on expanding on this plugin too much, although I do want to add a graph showing green/red lines for test status and possibly integration with Subversion to show the last few commits.  
 
