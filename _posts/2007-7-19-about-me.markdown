@@ -1,0 +1,15 @@
+--- 
+layout: post
+title: About Me
+---
+*Shane Vitarana*
+
+I own and operate "CrimsonJet":http://crimsonjet.com, an iPhone app company.  CrimsonJet's most successful product, "Drum Kit":http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=285700010&mt=8, was the #2 "best selling music app":http://www.mobilecrunch.com/2008/12/02/apple-announces-top-10-iphone-app-downloads-of-2008/ in the iTunes App Store in 2008 and continues to be in the Top 10 in Music.  It has been featured in Apple's TV ads, billboards, and posters.
+
+I started programming at age 14, before the Internet was mainstream.  The first programming language I learned was "PPL":http://99-bottles-of-beer.net/language-ppl-562.html (now defunct) to write plugins for the "BBS":http://en.wikipedia.org/wiki/Bulletin_board_system I operated out of my parents house.  I was lucky to attend a middle school that taught BASIC and a high school that had a course in Pascal.  Since then I've taught myself C, Java, Ruby, and Cocoa Touch.  I've authored and contributed to many "open source projects":http://github.com/shanev, most within the Ruby community, and written a book on "Facebook development":http://peepcode.com/products/rails-on-facebook.
+
+During college at Rutgers University, I mainly focused on the hardware side, and got a dual degree in Computer Engineering and Computer Science.  Later I got my M.S at Illinois Institute of Technology, focusing on electromagnetics and nanotechnology.
+
+In my former life, I did software development for some big companies, including Merrill Lynch, Motorola, and Orbitz.  However, I always wanted to start my own company since the early days of college.  I left Orbitz in April 2007 and founded CrimsonJet, doing Ruby on Rails consulting.  I quit my consulting gigs in March '08, the day Apple announced the iPhone SDK.  I knew the iPhone was going to change the mobile landscape for a long time and wanted to be part of that process.
+
+I can be contacted at: shanev@gmail.com.  Sorry, I'm not available for iPhone development.
