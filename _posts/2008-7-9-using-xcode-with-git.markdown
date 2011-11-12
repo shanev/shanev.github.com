@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Using Xcode with Git
+permalink: /2008/7/9/using-xcode-with-git.html
 ---
 
 {{ page.title }}
